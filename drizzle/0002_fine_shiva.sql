@@ -1,0 +1,1 @@
+ALTER TABLE `conversations` ADD `user_id` text NOT NULL REFERENCES user(id);
